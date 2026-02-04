@@ -9,8 +9,13 @@
         <element label="Comments" max_length="40" name="comments" type="string"/>
         <element label="Taken" max_length="40" name="taken" type="float"/>
         <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Leave Type" max_length="40" name="leave_type" type="choice">
-            <choice/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="casual" label="Leave Type" max_length="40" name="leave_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PayLeave" value="payleave"/>
+                <element inactive_on_update="false" label="Sick" value="sick"/>
+                <element inactive_on_update="false" label="WFH" value="wfh"/>
+                <element inactive_on_update="false" label="Casual" value="casual"/>
+            </choice>
         </element>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element label="Balance" max_length="40" name="balance" type="float"/>
