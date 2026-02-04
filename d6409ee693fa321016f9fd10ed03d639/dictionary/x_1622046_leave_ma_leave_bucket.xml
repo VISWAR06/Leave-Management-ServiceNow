@@ -7,6 +7,9 @@
         <element choice="1" choice_field="leave_type" choice_table="x_1622046_leave_ma_leave_request" label="Leave Type" max_length="40" name="leave_type" type="choice">
             <choice/>
         </element>
+        <element choice="1" label="demo" max_length="40" name="demo" type="choice">
+            <choice/>
+        </element>
         <element label="Taken" max_length="40" name="taken" type="float"/>
         <index name="index">
             <element name="employee"/>
