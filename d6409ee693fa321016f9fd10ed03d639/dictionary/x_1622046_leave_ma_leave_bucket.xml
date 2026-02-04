@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="73a59aae93fa321016f9fd10ed03d65b" label="Leave Bucket" max_length="40" name="x_1622046_leave_ma_leave_bucket" type="collection">
+        <element label="Last Yr Balance" max_length="40" name="last_yr_balance" type="float"/>
+        <element label="Balance" max_length="40" name="balance" type="float"/>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="Accured" max_length="40" name="accured" type="float"/>
+        <element choice="1" choice_field="leave_type" choice_table="x_1622046_leave_ma_leave_request" label="Leave Type" max_length="40" name="leave_type" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="demo" max_length="40" name="demo" type="choice">
+            <choice/>
+        </element>
+        <element label="Taken" max_length="40" name="taken" type="float"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
