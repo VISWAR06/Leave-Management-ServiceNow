@@ -11,7 +11,12 @@
         <element label="End Month" max_length="40" name="end_month" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Leaves" max_length="40" name="leaves" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" choice_field="leave_type" choice_table="x_1622046_leave_ma_leave_request" default="casual" label="Leave Type" max_length="40" name="leave_type" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Casual" sequence="0" value="casual"/>
+                <element inactive_on_update="false" label="PayLeave" sequence="1" value="payleave"/>
+                <element inactive_on_update="false" label="Sick" sequence="2" value="sick"/>
+                <element inactive_on_update="false" label="WFH" sequence="3" value="wfh"/>
+            </choice>
         </element>
         <index name="index">
             <element name="country"/>
