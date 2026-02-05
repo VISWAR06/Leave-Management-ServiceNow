@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1a1a9bb293f2b21016f9fd10ed03d6c2" label="Leave Logic" max_length="40" name="x_1622046_leave_ma_leave_logic" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Leave Assignment" max_length="40" name="leave_assignment" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element label="Start Month" max_length="40" name="start_month" type="string"/>
+        <element label="End Month" max_length="40" name="end_month" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Leaves" max_length="40" name="leaves" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Leave Type" max_length="40" name="leave_type" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="country"/>
+        </index>
+    </element>
+</database>
