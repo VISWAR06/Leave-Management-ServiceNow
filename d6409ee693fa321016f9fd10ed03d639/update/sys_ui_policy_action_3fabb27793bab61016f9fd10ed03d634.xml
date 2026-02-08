@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>end_date</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-08 15:11:38</sys_created_on>
+        <sys_id>3fabb27793bab61016f9fd10ed03d634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>end_date</sys_name>
+        <sys_package display_value="Leave Management System" source="x_1622046_leave_ma">d6409ee693fa321016f9fd10ed03d639</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">d6409ee693fa321016f9fd10ed03d639</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3fabb27793bab61016f9fd10ed03d634</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-08 15:11:38</sys_updated_on>
+        <table>x_1622046_leave_ma_leave_request</table>
+        <ui_policy display_value="HIde End date for Half Day">d96bfa3793bab61016f9fd10ed03d65e</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=3fabb27793bab61016f9fd10ed03d634"/>
+</record_update>
