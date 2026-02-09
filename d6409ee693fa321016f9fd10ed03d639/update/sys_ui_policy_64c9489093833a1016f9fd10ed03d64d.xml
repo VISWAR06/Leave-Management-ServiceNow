@@ -19,22 +19,22 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>start date madintory</short_description>
+        <short_description>changes</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-09 15:31:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>64c9489093833a1016f9fd10ed03d64d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>start date madintory</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>changes</sys_name>
         <sys_overrides/>
         <sys_package display_value="Leave Management System" source="x_1622046_leave_ma">d6409ee693fa321016f9fd10ed03d639</sys_package>
         <sys_policy/>
         <sys_scope display_value="Leave Management System">d6409ee693fa321016f9fd10ed03d639</sys_scope>
         <sys_update_name>sys_ui_policy_64c9489093833a1016f9fd10ed03d64d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-09 15:31:09</sys_updated_on>
+        <sys_updated_on>2026-02-09 15:41:38</sys_updated_on>
         <table>x_1622046_leave_ma_leave_request</table>
         <ui_type>0</ui_type>
         <view/>

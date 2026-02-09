@@ -2,36 +2,36 @@
     <element db_object_id="3ac0566a93fa321016f9fd10ed03d6e7" label="Leave Request" max_length="40" name="x_1622046_leave_ma_leave_request" type="collection">
         <element choice="3" default="open" label="Status" max_length="40" name="status" type="string">
             <choice>
+                <element inactive_on_update="false" label="Open" value="open"/>
                 <element inactive_on_update="false" label="Submitted" value="submitted"/>
                 <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
-                <element inactive_on_update="false" label="Open" value="open"/>
             </choice>
         </element>
         <element choice="3" default="not requested" label="Approval" max_length="40" name="approval" type="string">
             <choice>
-                <element inactive_on_update="false" label="Requested" value="requested"/>
+                <element inactive_on_update="false" label="Not Yet Requested" value="no requested"/>
                 <element inactive_on_update="false" label="Approved" value="approved"/>
                 <element inactive_on_update="false" label="Rejected" value="rejected"/>
-                <element inactive_on_update="false" label="Not Yet Requested" value="no requested"/>
+                <element inactive_on_update="false" label="Requested" value="requested"/>
             </choice>
         </element>
-        <element label="Accrued" max_length="40" name="accrued" type="float"/>
         <element label="Duration" max_length="40" name="duration" type="float"/>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Comments" max_length="40" name="comments" type="string"/>
         <element label="Taken" max_length="40" name="taken" type="float"/>
-        <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="casual" label="Leave Type" max_length="40" name="leave_type" type="choice">
+        <element default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Leave Type" max_length="40" name="leave_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="PayLeave" value="payleave"/>
-                <element inactive_on_update="false" label="Sick" value="sick"/>
                 <element inactive_on_update="false" label="WFH" value="wfh"/>
                 <element inactive_on_update="false" label="Casual" value="casual"/>
+                <element inactive_on_update="false" label="Sick" value="sick"/>
             </choice>
         </element>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element label="Balance" max_length="40" name="balance" type="float"/>
+        <element label="Accured" max_length="40" name="accured" type="float"/>
         <element label="Half Day" max_length="40" name="half_day" type="boolean"/>
         <index name="index">
             <element name="requested_by"/>
