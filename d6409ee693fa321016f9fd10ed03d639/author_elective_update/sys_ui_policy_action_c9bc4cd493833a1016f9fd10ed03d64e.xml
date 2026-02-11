@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>status</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 15:43:43</sys_created_on>
+        <sys_id>c9bc4cd493833a1016f9fd10ed03d64e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Leave Management System" source="x_1622046_leave_ma">d6409ee693fa321016f9fd10ed03d639</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">d6409ee693fa321016f9fd10ed03d639</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c9bc4cd493833a1016f9fd10ed03d64e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 15:43:43</sys_updated_on>
+        <table>x_1622046_leave_ma_leave_request</table>
+        <ui_policy display_value="changes">64c9489093833a1016f9fd10ed03d64d</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=c9bc4cd493833a1016f9fd10ed03d64e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Management System">d6409ee693fa321016f9fd10ed03d639</application>
+        <file_path/>
+        <instance_id>2a9d4dd2fb5f665c843df4344eefdcc7</instance_id>
+        <instance_name>dev356154</instance_name>
+        <name>sys_ui_policy_action_c9bc4cd493833a1016f9fd10ed03d64e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>status</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-09 15:43:43</sys_created_on><sys_id>c9bc4cd493833a1016f9fd10ed03d64e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>status</sys_name><sys_package display_value="Leave Management System" source="x_1622046_leave_ma">d6409ee693fa321016f9fd10ed03d639</sys_package><sys_policy/><sys_scope display_value="Leave Management System">d6409ee693fa321016f9fd10ed03d639</sys_scope><sys_update_name>sys_ui_policy_action_c9bc4cd493833a1016f9fd10ed03d64e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-09 15:43:43</sys_updated_on><table>x_1622046_leave_ma_leave_request</table><ui_policy display_value="changes">64c9489093833a1016f9fd10ed03d64d</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=c9bc4cd493833a1016f9fd10ed03d64e"/></record_update>]]></payload>
+        <payload_hash>1868052695</payload_hash>
+        <record_name>status</record_name>
+        <reverted_from/>
+        <source>1c14da2e93fa321016f9fd10ed03d679</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 15:43:43</sys_created_on>
+        <sys_id>18cc84d493833a1016f9fd10ed03d6e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c4312acd00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 15:43:43</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>1ccc84d4d2833a10186883d3d7d030e2</update_guid>
+        <update_guid_history>1ccc84d4d2833a10186883d3d7d030e2:1868052695</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-11 15:30:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0416aee178f447b0804d0ecf6ef78100</sys_id>
+        <sys_metadata>c9bc4cd493833a1016f9fd10ed03d64e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Leave Management System" source="x_1622046_leave_ma">d6409ee693fa321016f9fd10ed03d639</sys_package>
+        <sys_parent display_value="changes">64c9489093833a1016f9fd10ed03d64d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">d6409ee693fa321016f9fd10ed03d639</sys_scope>
+        <sys_scope_delete display_value="">925e360a98b447ee8b0bebe0de40fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_c9bc4cd493833a1016f9fd10ed03d64e</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_c9bc4cd493833a1016f9fd10ed03d64e">18cc84d493833a1016f9fd10ed03d6e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-11 15:30:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
