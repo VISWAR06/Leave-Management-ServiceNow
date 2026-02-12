@@ -1,4 +1,4 @@
-Leave Management System – ServiceNow Application
+Leave Management System – ServiceNow Application.
 Project Overview
 
 The Leave Management System is a custom ServiceNow application developed to manage employee leave requests efficiently. It enables employees to apply for leave, managers to approve or reject requests, and automatically maintains leave balances based on predefined leave policies.
